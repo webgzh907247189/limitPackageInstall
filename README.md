@@ -1,4 +1,4 @@
-### limit install package
+### limit install package with npm or pnpm or yarn
 
 ## Usage in package.json
 
