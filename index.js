@@ -26,7 +26,9 @@ const getArgv = () => {
 const deleteFile = ([isDelete, usedPkgName, isDeleteIllegalInstall]) => {
   if (!isDelete) {
     const filePath = `${process.cwd()}/pnpm-lock.yaml`;
-    fs.unlinkSync(filePath);
+    try {
+      fs.unlinkSync(filePath);
+    } catch {}
     const deleteNodeModules = `${__dirname}/node_modules`;
     // 是否删除 非法 安装的 package 包
     if (isDeleteIllegalInstall !== "false") {
