@@ -29,7 +29,7 @@ const deleteFile = ([isDelete, usedPkgName, isDeleteIllegalInstall]) => {
     try {
       fs.unlinkSync(filePath);
     } catch {}
-    const deleteNodeModules = `${__dirname}/node_modules`;
+    const deleteNodeModules = `${process.cwd()}/node_modules`;
     // 是否删除 非法 安装的 package 包
     if (isDeleteIllegalInstall !== "false") {
       spawn("rm", ["-rf", deleteNodeModules]);
