@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // https://github.com/npm/rfcs/issues/325
 
 const fs = require("fs");

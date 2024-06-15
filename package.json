@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "index.js",
+  "main": "index.js",
   "author": "",
   "license": "ISC",
   "keywords": [
