@@ -1,0 +1,22 @@
+{
+  "name": "limitpackageinstall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "limit",
+    "install",
+    "npm",
+    "pnpm",
+    "preinstall"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webgzh907247189/limitPackageInstall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webgzh907247189/limitPackageInstall/issues"
+  }
+}
