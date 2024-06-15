@@ -1,8 +1,8 @@
 ### limit install package
 
-## Usage
+## Usage package.json
 
-```package.json
+```json
   "scripts": {
     "preinstall": "npx limitpackageinstall npm"
   }
