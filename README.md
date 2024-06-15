@@ -1,6 +1,6 @@
 ### limit install package
 
-## Usage package.json
+## Usage in package.json
 
 ```json
   "scripts": {
