@@ -3,11 +3,7 @@
 ## Usage
 
 ```package.json
-
-...
   "scripts": {
     "preinstall": "npx limitpackageinstall npm"
-  },
-...
-
+  }
 ```
