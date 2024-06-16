@@ -11,7 +11,9 @@
     "install",
     "npm",
     "pnpm",
-    "preinstall"
+    "preinstall",
+    "delete limit package",
+    "remove illegal package"
   ],
   "repository": {
     "type": "git",
