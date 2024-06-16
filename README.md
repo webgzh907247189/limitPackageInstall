@@ -1,4 +1,4 @@
-### limit install package with npm or pnpm or yarn
+### limit install package with npm or pnpm or yarn and remove illegal package
 
 ## Usage in package.json
 
