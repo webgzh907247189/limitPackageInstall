@@ -1,6 +1,6 @@
 {
-  "name": "limitpackageinstall",
-  "version": "1.0.5",
+  "name": "limit-package-install",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "bin": "index.js",
